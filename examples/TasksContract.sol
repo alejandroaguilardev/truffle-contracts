@@ -1,7 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.6 <=0.9.0;
 // npx truffle-flattener ./contracts/WarNft.sol > ./contracts/WarNFTPublish.sol
-npx truffle-flattener ./contracts/WarNFTDemo.sol > ./contracts/compiler/WarNFTDemoPublish.sol
+
+
+
+
 contract TasksContract {
     uint256 public tasksCounter = 0;
 

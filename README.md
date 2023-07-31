@@ -23,3 +23,9 @@ Del ecosistema de Truffle se utiliza Framework Moka y Chai para realizar Testing
 
 ### Al ejecutar cambios (Equivalente a eliminar Cache)
    truffle migrate --reset
+
+
+Compilar los contratos
+
+npx truffle-flattener ./contracts/SwapRouterv3.sol > ./examples/compiler/SwapRouterv3.sol
+
